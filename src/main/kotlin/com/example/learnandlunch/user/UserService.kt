@@ -1,7 +1,9 @@
 package com.example.learnandlunch.user
 
+import org.springframework.stereotype.Service
 import java.util.*
 
+@Service
 class UserService {
 
     companion object {
