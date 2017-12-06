@@ -16,5 +16,13 @@ class UserResource(
 
     @GetMapping("/users/{id}")
     fun getUserById(@PathVariable id: Int) = userService.findOne(id) ?: throw UserNotFoundException("id-$id")
+
+    fun createUser() {
+        // TODO: 1) implémenter la méthode createUser
+    }
+
+    fun deleteUser() {
+        // TODO: 2) implémenter la méthode deleteUser
+    }
 }
 
